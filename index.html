@@ -14,15 +14,17 @@
       <link rel="stylesheet" href="style.css" />
    </head>
    <body>
+      <!-- header section  -->
       <header class="header">
          <div class="container">
             <div class="row">
                <div class="col-12 d-flex justify-content-between align-items-center">
                   <div class="d-none d-lg-block">
-                     <i class="bi bi-telephone-fill"></i> <span class="number">+88 09638-016499 (10:00 am - 06.00 pm)</span>
+                     <i class="bi bi-telephone-fill"></i>
+                     <span class="number">+88 09638-016499 (10:00 am - 06.00 pm)</span>
                      <i class="bi bi-envelope-fill"></i><span class="mail">info@bitm.org.bd</span>
                   </div>
-                  <div class="register ">
+                  <div class="register">
                      <a href="#"><i class="bi bi-person-fill"></i>Login</a>
                      <a href="#"><i class="bi bi-person-plus-fill"></i>Register</a>
                   </div>
@@ -30,6 +32,40 @@
             </div>
          </div>
       </header>
+      <!-- navbar section  -->
+      <nav class="navbar navbar-expand-lg">
+         <div class="container">
+            <a class="navbar-brand" href="#"><img src="./img/bitm logo.png" class="img-fluid" /></a>
+            <button class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling">
+               <i class="bi bi-list"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+               <div class="navbar-nav m-auto">
+                  <a class="nav-link" href="#">Home</a>
+                  <a class="nav-link" href="#">Our Courses</a>
+                  <a class="nav-link" href="#">PGD</a>
+                  <a class="nav-link" href="#">RPL</a>
+                  <a class="nav-link" href="#">About Us</a>
+               </div>
+            </div>
+            <a class="navbar-brand d-none d-lg-block" href="#"><img src="./img/basis logo.png" class="img-fluid" /></a>
+         </div>
+      </nav>
+      <!-- offcanvas section  -->
+      <div class="offcanvas offcanvas-start" id="offcanvasScrolling">
+         <div class="offcanvas-header">
+            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+         </div>
+         <div class="offcanvas-body text-center">
+            <div class="navbar-nav">
+               <a class="nav-link" href="#">Home</a>
+               <a class="nav-link" href="#">Our Courses</a>
+               <a class="nav-link" href="#">PGD</a>
+               <a class="nav-link" href="#">RPL</a>
+               <a class="nav-link" href="#">About Us</a>
+            </div>
+         </div>
+      </div>
       <!-- javaScript cdn  -->
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
    </body>
